@@ -25,7 +25,6 @@
                     <li><a href="/web#lokal">Lokal</a></li>
                     <li><a href="/web#partners">Partners</a></li>
                     <li><a href="/web#contact">Contact</a></li>
-                    <li><a href="" class="tbl-biru">Sign Up</a></li>
                 </ul>
             </div>
         </div>
