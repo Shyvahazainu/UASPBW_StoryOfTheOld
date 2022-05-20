@@ -15,33 +15,25 @@
         margin-left: 20px;
     }
 </style>
+    <section id="title">
+            <img src="\img\jamur.png" width="600"/>
+            <div class="kolom kiri">
+                <br><br><br>
+                <br>
+                <h2>Title<h2>
+                    <h1>A<h1>
+                        <a href="https://en.wikipedia.org/wiki/Abdullah_the_Fisherman_and_Abdullah_the_Merman">- Abdullah the Fisherman and Abdullah the Merman<a>
+                        <br><a href="https://en.wikipedia.org/wiki/Aladdin">- Aladdin<a>
+                        <br><a href="https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland">- Alice's Adventures in Wonderland<a>
 
-<div class="container">
-    <h2> title</h2>
-	<div class="kolom kiri">
-    <img src="\img\jamur.png" width="600"/>
+                    <br><h1>B<h1>
+                        <a href="https://en.wikipedia.org/wiki/Bearskin_(French_fairy_tale)">- Bearskin<a>
+                        <br><a href="https://en.wikipedia.org/wiki/Beauty_and_the_Beast">- Beauty and the Beast<a>
 
-        <div class="table-responsive">                
-            <table id="mytable" class="table table-bordred table-striped">
-                <thead>
-                    <th>judul</th>
-                    <th>link</th>
-                </thead>
-            <tbody>
-                @foreach($story as $sy)
-                <tr>
-                <td>{{$sy->judul}}</td>
-                <td>{{$sy->link}}</td>
-                    <td>
-                    <a href="/foreign/update{judul}" class="tbl-biru">Edit Your Story</a><p>
-                        <a style="color:red;" href="/tambahcerita">Add Story</a>
-                        <a href="/foreign/hapus/{judul}" class="tbl-biru">Delete Your Story</a>
-                    </td>
-                </tr>
-                @endforeach
-            </tbody>
-        </table>
-    </div>
-</div>
+
+
+                    </div>
+        </section>
 @endsection
+
 
